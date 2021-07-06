@@ -1,0 +1,27 @@
+{
+  "name": "MERN-App-F3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "front": "cd frontend && npm start",
+    "back" : "cd backend && nodemon server.js",
+    "dev" : "concurrently \"npm run back\" \"npm run front\" "
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amdounislim/MERN-App-F3-Mars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amdounislim/MERN-App-F3-Mars/issues"
+  },
+  "homepage": "https://github.com/Amdounislim/MERN-App-F3-Mars#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
